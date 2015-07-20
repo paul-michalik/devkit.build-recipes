@@ -17,4 +17,21 @@
       <UniqueIdentifier>{b1589f0d-4668-4db1-b571-0316eefc6d87}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\build-recipes\recipe.application.props">
+      <Filter>Property Sheets</Filter>
+    </None>
+    <None Include="..\build-recipes\recipe.common.props">
+      <Filter>Property Sheets</Filter>
+    </None>
+    <None Include="..\build-recipes\recipe.library.props">
+      <Filter>Property Sheets</Filter>
+    </None>
+    <None Include="..\build-recipes\recipe.root.paths.props">
+      <Filter>Property Sheets</Filter>
+    </None>
+    <None Include="..\build-recipes\recipe.root.props">
+      <Filter>Property Sheets</Filter>
+    </None>
+  </ItemGroup>
 </Project>

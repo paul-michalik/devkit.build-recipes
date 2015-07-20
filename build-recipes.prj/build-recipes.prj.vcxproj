@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\build-recipes\recipe.application.props" />
+    <None Include="..\build-recipes\recipe.common.props" />
+    <None Include="..\build-recipes\recipe.library.props" />
+    <None Include="..\build-recipes\recipe.root.paths.props" />
+    <None Include="..\build-recipes\recipe.root.props" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1B739C10-EBF7-4ACF-B551-9124C0EE71FD}</ProjectGuid>
     <RootNamespace>buildrecipesprj</RootNamespace>

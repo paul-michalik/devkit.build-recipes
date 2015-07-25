@@ -28,6 +28,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1B739C10-EBF7-4ACF-B551-9124C0EE71FD}</ProjectGuid>
     <RootNamespace>buildrecipesprj</RootNamespace>
+    <ProjectName>build-recipes</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

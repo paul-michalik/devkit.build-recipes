@@ -9,7 +9,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests.build-recipes.executa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests.build-recipes.library", "..\build-recipes.tests\tests.build-recipes.library\tests.build-recipes.library.vcxproj", "{379C0791-C783-4FF1-BCBB-F49A35CD9B35}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "build-recipes.prj", "..\build-recipes.prj\build-recipes.prj.vcxproj", "{1B739C10-EBF7-4ACF-B551-9124C0EE71FD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "build-recipes", "..\build-recipes.prj\build-recipes.prj.vcxproj", "{1B739C10-EBF7-4ACF-B551-9124C0EE71FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

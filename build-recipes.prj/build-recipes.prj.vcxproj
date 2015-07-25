@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\build-recipes\recipe.application.props" />
+    <None Include="..\build-recipes\recipe.bullet.props" />
     <None Include="..\build-recipes\recipe.common.props" />
     <None Include="..\build-recipes\recipe.library.props" />
     <None Include="..\build-recipes\recipe.root.paths.props" />

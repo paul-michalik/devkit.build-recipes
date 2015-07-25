@@ -6,5 +6,6 @@
     <None Include="..\build-recipes\recipe.library.props" />
     <None Include="..\build-recipes\recipe.root.paths.props" />
     <None Include="..\build-recipes\recipe.root.props" />
+    <None Include="..\build-recipes\recipe.bullet.props" />
   </ItemGroup>
 </Project>

@@ -1,3 +1,6 @@
 [submodule "build-recipes"]
 	path = build-recipes
 	url = https://github.com/paul-michalik/build-recipes.git
+[submodule "cold-md"]
+	path = cold-md
+	url = https://github.com/paul-michalik/cold-md.git

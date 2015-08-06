@@ -7,5 +7,7 @@
     <None Include="..\build-recipes\recipe.root.paths.props" />
     <None Include="..\build-recipes\recipe.root.props" />
     <None Include="..\build-recipes\recipe.bullet.props" />
+    <None Include="..\build-recipes\recipe.mstest_utils.props" />
+    <None Include="..\build-recipes\recipe.spck.props" />
   </ItemGroup>
 </Project>

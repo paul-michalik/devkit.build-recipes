@@ -23,8 +23,10 @@
     <None Include="..\build-recipes\recipe.bullet.props" />
     <None Include="..\build-recipes\recipe.common.props" />
     <None Include="..\build-recipes\recipe.library.props" />
+    <None Include="..\build-recipes\recipe.mstest_utils.props" />
     <None Include="..\build-recipes\recipe.root.paths.props" />
     <None Include="..\build-recipes\recipe.root.props" />
+    <None Include="..\build-recipes\recipe.spck.props" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1B739C10-EBF7-4ACF-B551-9124C0EE71FD}</ProjectGuid>

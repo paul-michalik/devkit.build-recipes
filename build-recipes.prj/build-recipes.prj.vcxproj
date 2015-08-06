@@ -28,6 +28,10 @@
     <None Include="..\build-recipes\recipe.root.props" />
     <None Include="..\build-recipes\recipe.spck.props" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\build-recipes\spck-paths-no-linebreaks.txt" />
+    <Text Include="..\build-recipes\spck-paths.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1B739C10-EBF7-4ACF-B551-9124C0EE71FD}</ProjectGuid>
     <RootNamespace>buildrecipesprj</RootNamespace>

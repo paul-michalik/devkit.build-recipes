@@ -10,4 +10,8 @@
     <None Include="..\build-recipes\recipe.mstest_utils.props" />
     <None Include="..\build-recipes\recipe.spck.props" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\build-recipes\spck-paths-no-linebreaks.txt" />
+    <Text Include="..\build-recipes\spck-paths.txt" />
+  </ItemGroup>
 </Project>

@@ -13,6 +13,12 @@ namespace tests {
             TEST_METHOD(TestMethod1)
             {
                 tests::foo_bar_declaration();
+                Assert::AreEqual(1, 2);
+            }
+
+            TEST_METHOD(TestMethod2)
+            {
+                Assert::AreEqual(1, 1);
             }
 
         };

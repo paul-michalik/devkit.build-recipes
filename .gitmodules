@@ -1,3 +1,6 @@
 [submodule "build-recipes"]
 	path = build-recipes
 	url = https://github.com/paul-michalik/build-recipes.git
+[submodule "build-recipes-cmake"]
+	path = build-recipes-cmake
+	url = https://github.com/paul-michalik/build-recipes-cmake.git

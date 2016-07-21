@@ -3,6 +3,9 @@
 
 *.VC.db
 *.VC.opendb
+[Pp]roducts/
+[Tt]argets/
+[Tt]argets.cmake/
 
 # User-specific files
 *.suo

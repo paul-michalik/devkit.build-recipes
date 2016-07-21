@@ -20,6 +20,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "build-recipes-cmake", "..\b
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "build-recipes", "..\build-recipes.prj\build-recipes\build-recipes.vcxproj", "{1B739C10-EBF7-4ACF-B551-9124C0EE71FD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests-build-recipes-cmake.devkit", "..\build-recipes.tests\tests-build-recipes-cmake.devkit\tests-build-recipes-cmake.devkit.vcxproj", "{25A3BBEB-2F31-42BA-9191-FF5EAD1C0322}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -68,6 +70,14 @@ Global
 		{1B739C10-EBF7-4ACF-B551-9124C0EE71FD}.Release|Win32.Build.0 = Release|Win32
 		{1B739C10-EBF7-4ACF-B551-9124C0EE71FD}.Release|x64.ActiveCfg = Release|x64
 		{1B739C10-EBF7-4ACF-B551-9124C0EE71FD}.Release|x64.Build.0 = Release|x64
+		{25A3BBEB-2F31-42BA-9191-FF5EAD1C0322}.Debug|Win32.ActiveCfg = Debug|Win32
+		{25A3BBEB-2F31-42BA-9191-FF5EAD1C0322}.Debug|Win32.Build.0 = Debug|Win32
+		{25A3BBEB-2F31-42BA-9191-FF5EAD1C0322}.Debug|x64.ActiveCfg = Debug|x64
+		{25A3BBEB-2F31-42BA-9191-FF5EAD1C0322}.Debug|x64.Build.0 = Debug|x64
+		{25A3BBEB-2F31-42BA-9191-FF5EAD1C0322}.Release|Win32.ActiveCfg = Release|Win32
+		{25A3BBEB-2F31-42BA-9191-FF5EAD1C0322}.Release|Win32.Build.0 = Release|Win32
+		{25A3BBEB-2F31-42BA-9191-FF5EAD1C0322}.Release|x64.ActiveCfg = Release|x64
+		{25A3BBEB-2F31-42BA-9191-FF5EAD1C0322}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

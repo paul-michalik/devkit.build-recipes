@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\build-recipes\recipe.application.props" />
+    <None Include="..\build-recipes\recipe.common.props" />
+    <None Include="..\build-recipes\recipe.library.props" />
+    <None Include="..\build-recipes\recipe.root.paths.props" />
+    <None Include="..\build-recipes\recipe.root.props" />
+    <None Include="..\build-recipes\recipe.bullet.props" />
+    <None Include="..\build-recipes\recipe.mstest_utils.props" />
+    <None Include="..\build-recipes\recipe.spck.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\build-recipes\spck-paths-no-linebreaks.txt" />
+    <Text Include="..\build-recipes\spck-paths.txt" />
+  </ItemGroup>
+</Project>

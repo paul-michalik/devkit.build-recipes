@@ -4,3 +4,6 @@
 [submodule "build-recipes-cmake"]
 	path = build-recipes-cmake
 	url = https://github.com/paul-michalik/build-recipes-cmake.git
+[submodule "build-recipes.tests/tests-build-recipes-cmake.devkit/build-recipes-cmake"]
+	path = build-recipes.tests/tests-build-recipes-cmake.devkit/build-recipes-cmake
+	url = https://github.com/paul-michalik/build-recipes-cmake.git

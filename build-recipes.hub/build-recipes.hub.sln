@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests.build-recipes.native-unit-test", "..\build-recipes.tests\tests.build-recipes.native-unit-test\tests.build-recipes.native-unit-test.vcxproj", "{530A8F6D-8728-4999-BE26-060CE1888800}"
 EndProject
@@ -9,14 +9,16 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests.build-recipes.executa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests.build-recipes.library", "..\build-recipes.tests\tests.build-recipes.library\tests.build-recipes.library.vcxproj", "{379C0791-C783-4FF1-BCBB-F49A35CD9B35}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "build-recipes", "..\build-recipes.prj\build-recipes.prj.vcxproj", "{1B739C10-EBF7-4ACF-B551-9124C0EE71FD}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".git", ".git", "{99AF051D-9E7D-4BC7-B62B-33516C7D90DB}"
 	ProjectSection(SolutionItems) = preProject
 		..\.gitattributes = ..\.gitattributes
 		..\.gitignore = ..\.gitignore
 		..\.gitmodules = ..\.gitmodules
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "build-recipes-cmake", "..\build-recipes.prj\build-recipes-cmake\build-recipes-cmake.vcxproj", "{FFDFE2B3-6CFF-4B2D-9B90-F2093A645397}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "build-recipes", "..\build-recipes.prj\build-recipes\build-recipes.vcxproj", "{1B739C10-EBF7-4ACF-B551-9124C0EE71FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +52,14 @@ Global
 		{379C0791-C783-4FF1-BCBB-F49A35CD9B35}.Release|Win32.Build.0 = Release|Win32
 		{379C0791-C783-4FF1-BCBB-F49A35CD9B35}.Release|x64.ActiveCfg = Release|x64
 		{379C0791-C783-4FF1-BCBB-F49A35CD9B35}.Release|x64.Build.0 = Release|x64
+		{FFDFE2B3-6CFF-4B2D-9B90-F2093A645397}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FFDFE2B3-6CFF-4B2D-9B90-F2093A645397}.Debug|Win32.Build.0 = Debug|Win32
+		{FFDFE2B3-6CFF-4B2D-9B90-F2093A645397}.Debug|x64.ActiveCfg = Debug|x64
+		{FFDFE2B3-6CFF-4B2D-9B90-F2093A645397}.Debug|x64.Build.0 = Debug|x64
+		{FFDFE2B3-6CFF-4B2D-9B90-F2093A645397}.Release|Win32.ActiveCfg = Release|Win32
+		{FFDFE2B3-6CFF-4B2D-9B90-F2093A645397}.Release|Win32.Build.0 = Release|Win32
+		{FFDFE2B3-6CFF-4B2D-9B90-F2093A645397}.Release|x64.ActiveCfg = Release|x64
+		{FFDFE2B3-6CFF-4B2D-9B90-F2093A645397}.Release|x64.Build.0 = Release|x64
 		{1B739C10-EBF7-4ACF-B551-9124C0EE71FD}.Debug|Win32.ActiveCfg = Debug|Win32
 		{1B739C10-EBF7-4ACF-B551-9124C0EE71FD}.Debug|Win32.Build.0 = Debug|Win32
 		{1B739C10-EBF7-4ACF-B551-9124C0EE71FD}.Debug|x64.ActiveCfg = Debug|x64
